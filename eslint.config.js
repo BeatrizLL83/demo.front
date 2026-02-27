@@ -16,7 +16,7 @@ export default defineConfig([
         ignores: ['**/dist/**'],
     },
     tseslint.configs.strict,
-
+    tseslint.configs.stylistic,
     {
         files: ['**/*.json'],
         plugins: { json },

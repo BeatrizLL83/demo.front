@@ -24,3 +24,13 @@
   },
   "include": ["src"]
 }
+{
+  "compilerOptions": {
+    /* valores creados al instalar vite */
+
+    /* Paths */
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
